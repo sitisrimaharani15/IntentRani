@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Makanan Kesukaan"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/gambar2"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_column="1"
+            android:layout_weight="20sp"
+            android:src="@drawable/bigmac" />
+
+        <TextView
+            android:id="@+id/txtgambar2"
+            android:text="Big Mac"
+            android:width="200dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/gambar3"
+            android:layout_width="70dp"
+            android:layout_height="110dp"
+            android:layout_column="1"
+            android:layout_weight="20sp"
+            android:src="@drawable/katsu" />
+
+        <TextView
+            android:id="@+id/txtgambar3"
+            android:text="Katsu"
+            android:width="200dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_column="1"
+            android:layout_weight="20sp"
+            android:src="@drawable/kebab" />
+
+        <TextView
+            android:id="@+id/txtgambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:width="100dp"
+            android:text="Kebab"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/gambar4"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_column="1"
+            android:layout_weight="20sp"
+            android:src="@drawable/kentang" />
+
+        <TextView
+            android:id="@+id/txtgambar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:width="200dp"
+            android:text="Kentang Goreng"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/gambar5"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_column="1"
+            android:layout_weight="20sp"
+            android:src="@drawable/nasgor" />
+
+        <TextView
+            android:id="@+id/txtgambar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:width="200dp"
+            android:text="Nasi Goreng"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </TableRow>
+
+
+</TableLayout>
